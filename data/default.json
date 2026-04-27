@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.demostore.example.com/",
+  "bcUrl": "/smartphones/fold-phone-pro-7/buy/",
+  "shopUrl": "https://shop.demostore.example.com/",
+  "searchAPIPath": "global"
+}

@@ -1,0 +1,14 @@
+{
+  "default": {
+    "BC": ["selectDevice", "condition", "imei", "apply"],
+    "CART": ["selectDevice", "condition", "imei", "apply"]
+  },
+  "UK": {
+    "BC": ["selectDevice", "condition", "imei"],
+    "CART": ["selectDevice", "condition", "imei"]
+  },
+  "AU": {
+    "BC": ["skipGuide", "selectDevice", "apply"],
+    "CART": ["skipGuide", "selectDevice", "apply"]
+  }
+}

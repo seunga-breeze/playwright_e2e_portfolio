@@ -1,0 +1,18 @@
+node_modules/
+test-results/
+playwright-report/
+excel-report/
+tests/selfTest/
+api/*
+!api/DynamicConfig.ts
+!api/ApiClient.ts
+!api/ProductFinder.ts
+.claude/settings.local.json
+backup-reports/
+
+# 환경 변수 파일들
+.env
+.env.local
+.env.*.local
+!.env.example
+/generated/prisma

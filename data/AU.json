@@ -1,0 +1,106 @@
+{
+  "name": "AU",
+  "siteCode": "au",
+  "currencyMark": "$",
+  "currencyCode": "AUD",
+  "BC_Phone": {
+    "device": "FoldPhone Pro 7",
+    "color": "Jetblack",
+    "storage": "512 GB｜12 GB",
+    "sku": "DP-F966BZKEATS",
+    "url": "https://www.demostore.example.com/au/smartphones/fold-phone-pro-7/buy/"
+  },
+  "BC_Tablet": {
+    "device": "ProTab S11",
+    "color": "Grey",
+    "storage": "256GB  12GB",
+    "connectivity": "Wi-Fi",
+    "sku": "DP-X730NZAEXSA"
+  },
+  "BC_Watch": {
+    "device": "SmartWatch 8",
+    "caseColor": "Silver",
+    "caseSize": "40mm",
+    "connectivity": "Bluetooth",
+    "sku": "DP-L320NZSAXSA"
+  },
+  "PD_IM1": {
+    "Url": "https://www.demostore.example.com/au/smartphones/pro-mobile/pro-mobile-a36-5g-awesome-lavender-128gb-dp-a366blvaats/buy/",
+    "SKU": "DP-A366BLVAATS",
+    "DeviceName": "ProMobile A36 5G",
+    "Color": "Awesome Lavender",
+    "Storage": "128 GB",
+    "PFUrl": "https://www.demostore.example.com/au/smartphones/pro-mobile/"
+  },
+  "PD_VD1": {
+    "Url": "https://www.demostore.example.com/au/tvs/qled-tv/qn1ef-85-inch-neo-qled-4k-vision-ai-smart-tv-dp-qn1efawxxy/",
+    "SKU": "DP-QN1EFAWXXY",
+    "PFUrl": "https://www.demostore.example.com/au/tvs/all-tvs/?trade-up"
+  },
+  "PD_HA1": {
+    "Url": "https://www.demostore.example.com/au/refrigerators/side-by-side/refrigerator-sbs-615l-black-doi-dp-rs90f64d4fsa/",
+    "SKU": "DP-RS90F64D4FSA",
+    "PFUrl": "https://www.demostore.example.com/au/refrigerators/all-refrigerators/"
+  },
+  "PD_IT1": {
+    "Url": "https://www.demostore.example.com/au/monitors/gaming/odyssey-oled-g6-27-inch-240hz-qhd-dp-s27dg610sexxy/",
+    "SKU": "DP-S27DG610SEXXY",
+    "PFUrl": "https://www.demostore.example.com/au/monitors/all-monitors/"
+  },
+  "PD_Bespoke": {
+    "Url": "https://www.demostore.example.com/au/refrigerators/french-door/rf9000d-french-door-beverage-center-646l-clean-black-dp-rf65db965322sa/",
+    "SKU": "DP-RF65DB965322SA"
+  },
+  "PD_VD2": {
+    "Url": "https://www.demostore.example.com/au/tvs/qled-tv/qn85d-85-inch-neo-qled-4k-smart-tv-dp-qn85dbwxxy/",
+    "SKU": "DP-QN85DBWXXY"
+  },
+  "PD_HA2": {
+    "Url": "https://www.demostore.example.com/au/refrigerators/french-door/rf7000ac-648l-black-dp-rf59a7670b1-sa/",
+    "SKU": "DP-RF59A7670B1/SA"
+  },
+  "PD_IT2": {
+    "Url": "https://www.demostore.example.com/au/monitors/gaming/odyssey-neo-g9-57-inch-240hz-curved-dual-uhd-dp-s57cg952nexxy/",
+    "SKU": "DP-S57CG952NEXXY"
+  },
+  "PD_DM_Pickup": {
+    "Url": "https://www.demostore.example.com/au/tablets/pro-tab-a/pro-tab-a9-plus-wifi-graphite-128gb-dp-x210nzaexsa/buy/"
+  },
+  "PD_DM_Delivery": {
+    "Url": "https://www.demostore.example.com/au/refrigerators/bottom-mount-freezer/rb6000d-455l-black-doi-dp-rb45dg6305b1sa/",
+    "SKU": "DP-RB45DG6305B1SA"
+  },
+  "TradeUpData": {
+    "PostalCode": "5000"
+  },
+  "DeliveryCalendar": "Delivery and Basic Installation",
+  "RewardSummary": {
+    "SummaryTieringMessage": "Log in to earn Rewards points and get access to exclusive benefits.",
+    "SummaryRewardsBenefit": "Earn Rewards points on this order (Rewards members only)",
+    "SummaryRewardsEstimatedPoints": "Earn ([\\d\\.,]+) Rewards points\\(Rewards members only\\)",
+    "SummaryEnrollRewards": "You're currently signed in as:",
+    "RewardEarningPointRate": 10
+  },
+  "TradeInData": {
+    "Category": "Phone",
+    "Brand": "DemoBrand",
+    "Storage": "512",
+    "Model": "FoldPhone 4"
+  },
+  "TradeInData_Tablet": {
+    "Category": "Tablet",
+    "Brand": "DemoBrand",
+    "Device": "ProTab 8 Ultra 5G",
+    "Storage": "256"
+  },
+  "TradeInData_Watch": {
+    "Category": "Watch",
+    "Brand": "DemoBrand",
+    "Device": "SmartWatch 5 Bluetooth",
+    "ScreenSize": "44"
+  },
+  "PD_With_tradeUp": {
+    "Url": "https://www.demostore.example.com/au/refrigerators/side-by-side/refrigerator-sbs-615l-black-doi-dp-rs90f64d4fsa/",
+    "SKU": "DP-RS90F64D4FSA"
+  }
+}

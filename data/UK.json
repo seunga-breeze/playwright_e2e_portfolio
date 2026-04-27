@@ -1,0 +1,100 @@
+{
+  "name": "UK",
+  "siteCode": "uk",
+  "currencyMark": "£",
+  "currencyCode": "GBP",
+  "BC_Phone": {
+    "device": "FoldPhone Pro 7",
+    "color": "Mint",
+    "storage": "512GB",
+    "sku": "DP-F966BLGCEUB"
+  },
+  "BC_Tablet": {
+    "device": "ProTab S11",
+    "color": "Grey",
+    "storage": "512GB",
+    "connectivity": "Wi-Fi",
+    "sku": "DP-X730NZATEUB"
+  },
+  "BC_Watch": {
+    "device": "SmartWatch 8",
+    "caseColor": "Silver",
+    "caseSize": "40mm",
+    "connectivity": "Bluetooth",
+    "sku": "DP-L320NZSAEUA"
+  },
+  "BC_Book": {
+    "device": "ProBook 5 Pro",
+    "os": "Windows 11 Home",
+    "color": "Grey",
+    "bookMemory": "16GB",
+    "bookStorage": "512GB",
+    "connectivity": "Wi-Fi",
+    "screen": "14",
+    "processor": "Intel® Core™ Ultra 7processor 256V",
+    "graphics": "Intel® Arc™ 140V GPU (8GB)",
+    "sku": "DP-940XHA-KG1UK"
+  },
+  "PD_Bespoke": {
+    "Url": "https://www.demostore.example.com/uk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-341l-black-dp-rb34c632ebn-eu/",
+    "SKU": "DP-RB34C632EBN/EU"
+  },
+  "PD_DM_Delivery": {
+    "Url": "https://www.demostore.example.com/uk/smartphones/pro-mobile/pro-mobile-a16-light-green-128gb-dp-a165flgbeub/buy/",
+    "SKU": "DP-A165FZKBEUB"
+  },
+  "PD_DM_Pickup": {
+    "Url": "https://www.demostore.example.com/uk/smartphones/pro-mobile/pro-mobile-a16-light-green-128gb-dp-a165flgbeub/buy/",
+    "SKU": "DP-A165FZKBEUB"
+  },
+  "PD_DM_PickupRecycling": {
+    "Url": "https://www.demostore.example.com/uk/cooking-appliances/ovens/nv7000b-5series-dual-cook-flex-simple-steam-dp-nv7b5750tak-u4/",
+    "SKU": "DP-PANTHER-2M-HW-DISPOSAL"
+  },
+  "PD_HA1": {
+    "Url": "https://www.demostore.example.com/uk/washers-and-dryers/washing-machines/ww5000d-front-loading-ai-energy-11kg-black-dp-ww11dg5b25abeu/",
+    "SKU": "DP-WW11DG5B25ABEU",
+    "DeviceName": "Bespoke AI Front-Load Washing Machine Series 5 AI Energy 11KG",
+    "Color": "Black"
+  },
+  "PD_HA2": {
+    "Url": "https://www.demostore.example.com/uk/washers-and-dryers/washing-machines/ww5000c-front-loading-eco-bubble-9kg-white-dp-ww90cgc04daeeu/",
+    "SKU": "DP-WW90CGC04DAEEU"
+  },
+  "PD_IM1": {
+    "Url": "https://www.demostore.example.com/uk/smartphones/pro-mobile/pro-mobile-a17-5g-grey-128gb-dp-a176bzaaeub/buy/",
+    "SKU": "DP-A176BZAAEUB",
+    "DeviceName": "ProMobile A17 5G",
+    "Color": "Grey",
+    "Storage": "128 GB",
+    "PFUrl": "https://www.demostore.example.com/uk/smartphones/pro-mobile/"
+  },
+  "PD_IT1": {
+    "Url": "https://www.demostore.example.com/uk/tvs/qled-tv/qn90f-65-inch-neo-qled-4k-mini-led-smart-tv-dp-qe65qn90fatxxu/",
+    "SKU": "DP-QE65QN90FATXXU"
+  },
+  "PD_IT2": {
+    "Url": "https://www.demostore.example.com/uk/tvs/oled-tv/s95f-65-inch-oled-4k-smart-tv-dp-qe65s95fatxxu/",
+    "SKU": "DP-QE65S95FATXXU"
+  },
+  "PD_VD1": {
+    "Url": "https://www.demostore.example.com/uk/lifestyle-tvs/the-serif/ls01db-50-inch-ivy-green-dp-qe50ls01dbuxxu/",
+    "SKU": "DP-QE50LS01DBUXXU"
+  },
+  "PD_VD2": {
+    "Url": "https://www.demostore.example.com/uk/audio-accessories/9500s-rear-speaker-dp-swa-9500s-xu/",
+    "SKU": "DP-SWA-9500S/XU"
+  },
+  "PD_With_tradeUp": {
+    "Url": "https://www.demostore.example.com/uk/refrigerators/side-by-side/refrigerator-sbs-634l-black-doi-dp-rs80f66kbfeu/",
+    "SKU": "DP-RS80F66KBFEU"
+  },
+  "RewardSummary": {
+    "tieringMessage": "Sign in to get free delivery and earn Rewards points whenever you shop",
+    "rewardsbenefit": "Earn Rewards points on this order (Rewards members only)",
+    "EstimatedRewardsPoints": "Earn ([\\d\\.,]+) Rewards points\\(Rewards members only\\)",
+    "EnrollRewards": "Sign up for Rewards to earn Rewards points and access other exclusive benefits"
+  },
+  "TradeUpData": {},
+  "DeliveryCalendar": "Delivery Only"
+}

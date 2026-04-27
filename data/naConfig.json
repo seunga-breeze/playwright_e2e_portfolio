@@ -1,0 +1,24 @@
+{
+  "AU": [
+    "Prod_Login_03",
+    "Prod_Login_05",
+    "Prod_BC_06",
+    "Prod_BC_07",
+    "Prod_Cart_06",
+    "Prod_Cart_07",
+    "Prod_Cart_09",
+    "Prod_Cart_12",
+    "Prod_Checkout_07",
+    "Prod_Checkout_08"
+  ],
+  "UK": [
+    "Prod_Login_03",
+    "Prod_Login_05",
+    "Prod_BC_07",
+    "Prod_Cart_07",
+    "Prod_Cart_09",
+    "Prod_Cart_11",
+    "Prod_Cart_12",
+    "Prod_Checkout_05"
+  ]
+}

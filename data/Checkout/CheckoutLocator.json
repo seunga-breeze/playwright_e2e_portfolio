@@ -1,0 +1,83 @@
+{
+    "uk": {
+        "contactDetails": {
+            "title": "app-customer-info-v2 mat-select[name=\"titleCode\"][role=\"combobox\"]",
+            "titleOption": "mat-option >> text=\"{{value}}\"",
+            "firstName": "app-customer-info-v2 input[name=\"firstName\"]",
+            "lastName": "app-customer-info-v2 input[name=\"lastName\"]",
+            "email": "app-customer-info-v2 input[name=\"email\"]",
+            "guestEmail": "input[matinput][formcontrolname=\"guestEmail\"]",
+            "phone": "app-customer-info-v2 input[name=\"phone\"]",
+            "editButton": "[data-an-la=\"checkout:customer details:edit\"]"
+        },
+        "delivery": {
+            "postCode": "input[aria-label=\"postalCode\"][role=\"combobox\"]",
+            "addressLine1": "app-customer-address-v2 input[name=\"line1\"]",
+            "city": "app-customer-address-v2 input[aria-label=\"town\"]"
+        },
+        "billing": {
+            "title": "app-billing-address-v2 mat-select[name=\"titleCode\"][role=\"combobox\"]",
+            "titleOption": "mat-option >> text=\"{{value}}\"",
+            "firstName": "app-billing-address-v2 input[name=\"firstName\"]",
+            "lastName": "app-billing-address-v2 input[name=\"lastName\"]",
+            "email": "app-billing-address-v2 input[name=\"email\"]",
+            "prefix": "app-billing-address-v2 mat-select[name=\"prefix\"]",
+            "prefixOption": "mat-option >> text=\"{{value}}\"",
+            "phone": "app-billing-address-v2 input[name=\"phone\"]",
+            "postCode": "app-billing-address-v2 input[name=\"searchAddress\"]",
+            "addressLine1": "app-billing-address-v2 input[name=\"line1\"]",
+            "city": "app-billing-address-v2 input[name=\"town\"]"
+        },
+        "deliveryOptions": {
+            "category": "div[data-an-la=\"checkout:delivery options:home delivery\"]",
+            "option": "div[data-an-la=\"checkout:delivery options:delivery only\"]",
+            "timeSlot": "button[data-an-la=\"checkout:delivery options:see more delivery slot\"]",
+            "datePicker": "ngb-datepicker-month",
+            "dateOption": "div.ngb-dp-day:not(.disabled) span.custom-day",
+            "timeSlotContinue": "button[data-an-la=\"delivery date popup:apply\"]"
+        }
+    },
+    "au": {
+        "contactDetails": {
+            "title": "app-customer-info-v2 mat-select[name=\"titleCode\"][role=\"combobox\"]",
+            "firstName": "app-customer-info-v2 input[name=\"firstName\"]",
+            "lastName": "app-customer-info-v2 input[name=\"lastName\"]",
+            "email": "app-customer-info-v2 input[name=\"email\"]",
+            "guestEmail": "input[matinput][formcontrolname=\"guestEmail\"]",
+            "phone": "app-customer-info-v2 input[name=\"phone\"]"
+        },
+        "delivery": {
+            "addressLine1": "app-customer-address-v2 input[name=\"line1\"]",
+            "postalCode": "app-customer-address-v2 input[name=\"postalCode\"]",
+            "town": "app-customer-address-v2 mat-select[name=\"town\"]",
+            "townOption": "mat-option >> text=\"{{value}}\"",
+            "regionIso": "app-customer-address-v2 mat-select[name=\"regionIso\"]",
+            "regionIsoOption": "mat-option >> text=\"{{value}}\""
+        },
+        "billing": {
+            "firstName": "app-billing-address-v2 input[name=\"firstName\"]",
+            "lastName": "app-billing-address-v2 input[name=\"lastName\"]",
+            "phone": "app-billing-address-v2 input[name=\"phone\"]",
+            "addressLine1": "app-billing-address-v2 input[name=\"line1\"]",
+            "addressLine2": "app-billing-address-v2 input[name=\"line2\"]",
+            "postalCode": "app-billing-address-v2 input[name=\"postalCode\"]",
+            "town": "app-billing-address-v2 mat-select[name=\"town\"]",
+            "townOption": "mat-option >> text=\"{{value}}\"",
+            "regionIso": "app-billing-address-v2 mat-select[name=\"regionIso\"]",
+            "regionIsoOption": "mat-option >> text=\"{{value}}\""
+        }
+    },
+    "jp": {
+        "contactDetails": {
+            "firstName": "app-customer-info-v2 input[name=\"firstName\"]",
+            "lastName": "app-customer-info-v2 input[name=\"lastName\"]",
+            "email": "app-customer-info-v2 input[name=\"email\"]",
+            "guestEmail": "input[matinput][formcontrolname=\"guestEmail\"]",
+            "phone": "app-customer-info-v2 input[name=\"phone\"]"
+        },
+        "delivery": {
+            "postalCode": "app-customer-address-v2 input[name=\"postalCode\"]",
+            "suburb": "app-customer-address-v2 input[name=\"suburb\"]"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "defaults": {
+        "requiresPostalCode": false,
+        "customSelectors": {}
+    },
+    "sites": {
+        "AU": {
+            "requiresPostalCode": true,
+            "postalCodeInput": "[formcontrolname=\"postCodeControl\"]",
+            "postalCodeButton": "button.post-code-form__btn"
+        },
+        "UK": {
+            "customSelectors": {}
+        }
+    },
+    "pageTypes": {
+        "PD": {
+            "baseSelectors": {
+                "tradeUpYesOption": ".pd-option-selector:has([an-la=\"trade-up:yes\" i])",
+                "tradeUpPopup": "#trade-in > div.pd-select-option__wrap > ul > li:nth-child(1), .vd-trade-in-popup__step, app-trade-up-steps-global, .trade-up-steps, .tradeup-modal, .trade-in-popup__contents:has(input[an-la*=\"trade up\"]), .trade-up-modal.ng-star-inserted",
+                "modelDropdownButton": ".vd-trade-in-popup__product-select > li:nth-of-type(1), .modal__body.ng-star-inserted li:nth-of-type(1) mat-select, div.trade-up__wrapper:has(div.device_category:has-text(\"Select Size\")) mat-expansion-panel-header",
+                "brandDropdownButton": ".vd-trade-in-popup__product-select > li:nth-of-type(2), .modal__body.ng-star-inserted li:nth-of-type(2) mat-select, div.trade-up__wrapper:has(div.device_category:has-text(\"Select Brand\")) mat-expansion-panel-header",
+                "continueButton": "button[an-la=\"trade-up:select device:next\"], [data-an-la=\"trade-up:select device:next\"]",
+                "conditionNextButton": "button[an-la=\"trade-up:check device condition:next\"], [data-an-la=\"trade-up:check device condition:next\"]",
+                "applyTradeUpButton": "button[an-la=\"pd buying tool:trade-up:apply discount:apply trade up\"], [data-an-la=\"tradeup2termswrapper:add to cart\"]",
+                "termsAgreementCheckbox": "#chkTuTncAgree",
+                "conditionYesLabel": "label.radio-v2__label[for=\"conditionCheckInfoYes\"], div .condition-radio__yes",
+                "getModelOption": ".vd-trade-in-popup__product-select > li:nth-of-type(%s) .menu__list li:first-child .menu__list-option, .mat-mdc-select-panel mat-option:nth-of-type(%s), ul.trade-up__dropdown-list li.trade-up__dropdown-option:nth-of-type(%s)",
+                "getBrandOption": ".vd-trade-in-popup__product-select > li:nth-of-type(2) .menu__list li:first-child .menu__list-option, .mat-mdc-select-panel mat-option:nth-of-type(%s), div.trade-up__wrapper:has(div.device_category:has-text(\"Select Brand\")) li.trade-up__dropdown-option:nth-of-type(%s)"
+            }
+        },
+        "Cart": {
+            "baseSelectors": {
+                "tradeUpYesOption": ".pd-option-selector:has([an-la=\"trade-up:yes\" i])",
+                "tradeUpPopup": "dialog[aria-labelledby*=\"Trade Up\"], .trade-up-modal, .trade-up-popup",
+                "modelDropdownButton": ".vd-trade-in-popup__product-select > li:nth-of-type(1), .modal__body.ng-star-inserted li:nth-of-type(1) mat-select, div.trade-up__wrapper:has(div.device_category:has-text(\"Select Size\")) mat-expansion-panel-header",
+                "brandDropdownButton": ".vd-trade-in-popup__product-select > li:nth-of-type(2), .modal__body.ng-star-inserted li:nth-of-type(2) mat-select, div.trade-up__wrapper:has(div.device_category:has-text(\"Select Brand\")) mat-expansion-panel-header",
+                "continueButton": "button[an-la=\"trade-up:select device:next\"], [data-an-la=\"trade-up:select device:next\"]",
+                "conditionNextButton": "button[an-la=\"trade-up:check device condition:next\"], [data-an-la=\"trade-up:check device condition:next\"]",
+                "applyTradeUpButton": "button[an-la=\"pd buying tool:trade-up:apply discount:apply trade up\"], [data-an-la=\"tradeup2termswrapper:add to cart\"], button:has-text('Add Discount')",
+                "termsAgreementCheckbox": "input[type='checkbox']",
+                "conditionYesLabel": "label.radio-v2__label[for=\"conditionCheckInfoYes\"], div .condition-radio__yes",
+                "getModelOption": ".vd-trade-in-popup__product-select > li:nth-of-type(%s) .menu__list li:first-child .menu__list-option, .mat-mdc-select-panel mat-option:nth-of-type(%s), ul.trade-up__dropdown-list li.trade-up__dropdown-option:nth-of-type(%s)",
+                "getBrandOption": ".vd-trade-in-popup__product-select > li:nth-of-type(2) .menu__list li:first-child .menu__list-option, .mat-mdc-select-panel mat-option:nth-of-type(%s), div.trade-up__wrapper:has(div.device_category:has-text(\"Select Brand\")) li.trade-up__dropdown-option:nth-of-type(%s)"
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "tradeInData": {
+    "AU": [
+      {
+        "type": "phone",
+        "category": "Phone",
+        "brand": "DemoBrand",
+        "model": "FoldPhone 4",
+        "storage": "512"
+      },
+      {
+        "type": "watch",
+        "category": "WATCH",
+        "brand": "DemoBrand",
+        "model": "SmartWatch Ultra 4G",
+        "screanSize": "47"
+      },
+      {
+        "type": "tablet",
+        "category": "tablet",
+        "brand": "DemoBrand",
+        "device": "ProTab 10 Ultra 5G",
+        "storage": "512"
+      }
+    ],
+    "UK": [
+      {
+        "type": "phone",
+        "category": "Mobile Phone",
+        "brand": "DemoBrand",
+        "device": "ProMobile S23 5G",
+        "storage": "256GB"
+      },
+      {
+        "type": "watch",
+        "category": "Smart Watch",
+        "brand": "DemoBrand",
+        "device": "Any SmartWatch 7",
+        "storage": "Any GB"
+      },
+      {
+        "type": "tablet",
+        "category": "tablet",
+        "brand": "DemoBrand",
+        "device": "Any ProTab S9",
+        "storage": "Any GB"
+      }
+    ]
+  }
+}

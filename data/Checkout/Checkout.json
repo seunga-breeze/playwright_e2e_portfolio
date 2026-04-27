@@ -1,0 +1,47 @@
+{
+  "uk": {
+    "CustomerInfo": {
+      "email": "aa@gmail.com",
+      "title": "test",
+      "firstName": "test",
+      "lastName": "test",
+      "phoneCode": "+44",
+      "phoneNumber": "test",
+      "dateOfBirth": "test"
+    },
+    "CustomerAddress": {
+      "country": "UK",
+      "postalCode": "test",
+      "line1": "test",
+      "adminLevel2": "test"
+    },
+    "BillingAddress": {
+      "searchAddress": "test",
+      "line1": "test",
+      "adminLevel2": "test",
+      "postalCode": "test"
+    }
+  },
+  "au": {
+    "CustomerInfo": {
+      "email": "aa@gmail.com",
+      "firstName": "test",
+      "lastName": "test",
+      "phoneNumber": "test",
+      "dateOfBirth": "test"
+    },
+    "CustomerAddress": {
+      "line1": "test",
+      "postalCode": "test",
+      "adminLevel2": "test",
+      "adminLevel1": "test"
+    },
+    "BillingAddress": {
+      "line1": "test",
+      "postalCode": "test",
+      "adminLevel2": "test",
+      "adminLevel1": "test"
+      
+    }
+  }
+}

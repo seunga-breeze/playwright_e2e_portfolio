@@ -1,0 +1,26 @@
+{
+  "editProfileLink": "[an-la=\"dashboard:edit my profile\"]",
+  "deliveryTab": "[data-an-la=\"address:shipping\"]",
+  "billingTab": "[data-an-la=\"address:billing\"]",
+  "addAddressButton": "[data-an-la=\"address:add\"]",
+  "viewMoreButton": "button[data-an-la=\"address:view more\"]",
+  "editAddressButton": "[data-an-la=\"address:edit\"]",
+  "removeAddressButton": "button[data-an-la=\"address:delete\"]",
+  "removeConfirmButton": "button[data-an-la=\"delete address:delete\"]",
+  "dialogTitle": "form.address-form",
+  "saveButton": "[data-an-la=\"address:add new address:save\"]", 
+  "editSaveButton": "[data-an-la=\"address:edit a shipping address:save\"]",
+  "editBillingSaveButton": "[data-an-la=\"address:edit a billing address:save\"]",
+  
+  "countryOverrides": {
+    "fr": {
+      "billingTab": "[data-an-la=\"address:facturation\"]",
+      "saveButton": "[data-an-la=\"address:add new address:enregistrer\"]",
+      "editSaveButton": "[data-an-la=\"address:edit a shipping address:enregistrer\"]",
+      "editBillingSaveButton": "[data-an-la=\"address:edit a billing address:enregistrer\"]"
+    },
+    "jp": {
+      "saveButton": "[data-an-la=\"address:add new address:保存\"]"
+    }
+  }
+}
